@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Calculator Clone</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <label class="theme-switch">
+      <input type="checkbox" id="theme-toggle">
+      <span class="slider"></span>
+    </label>
+    <div class="calculator">
+        <div id="history" class="history"></div>
+        <div id="mini-display" class="mini-display"></div>
+        <div id="display" class="display">0</div>
+        <div class="memory-buttons">
+            <button class="btn memory" data-value="MC">MC</button>
+            <button class="btn memory" data-value="MR">MR</button>
+            <button class="btn memory" data-value="M+">M+</button>
+            <button class="btn memory" data-value="M-">M-</button>
+        </div>
+        <div class="buttons">
+            <button class="btn function" data-value="%">%</button>
+            <button class="btn function" data-value="√">√</button>
+            <button class="btn function" data-value="x²">x²</button>
+            <button class="btn function" data-value="1/x">1/x</button>
+            <button class="btn" data-value="C">C</button>
+            <button class="btn" data-value="⌫">⌫</button>
+            <button class="btn function" data-value="±">±</button>
+            <button class="btn operator" data-value="/">÷</button>
+            <button class="btn" data-value="7">7</button>
+            <button class="btn" data-value="8">8</button>
+            <button class="btn" data-value="9">9</button>
+            <button class="btn operator" data-value="*">×</button>
+            <button class="btn" data-value="4">4</button>
+            <button class="btn" data-value="5">5</button>
+            <button class="btn" data-value="6">6</button>
+            <button class="btn operator" data-value="-">−</button>
+            <button class="btn" data-value="1">1</button>
+            <button class="btn" data-value="2">2</button>
+            <button class="btn" data-value="3">3</button>
+            <button class="btn operator" data-value="+">+</button>
+            <button class="btn zero" data-value="0">0</button>
+            <button class="btn" data-value=".">.</button>
+            <button class="btn equals operator" data-value="=">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
